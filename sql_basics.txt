@@ -6,3 +6,7 @@
 
 #to migrate it =>> npx sequelize-cli db:migrate make sure to add db name and pass in config.json
  to undo a migration npx sequelize-cli db:migrate:undo:all / onlt undo , undo previous one / :undo fullnameofmodel
+ 
+ 
+ ##Creating Seeders => kch data to hona chaiye samne vale ko bhejo ya vo add kr sake
+ =>> npx sequelize-cli seed:generate --name user-add
