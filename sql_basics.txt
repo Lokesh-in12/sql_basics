@@ -1,1 +1,3 @@
 #first install Sequelize and Sequelize-cli it is a ORM (Objectt - relationing - mapping) which make us easy to deal with sql 
+
+# to create model use => npx sequelize-cli model:generate --name modelname --attributes name:string,desc:string
